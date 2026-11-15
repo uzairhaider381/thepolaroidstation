@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Polaroid Station | Instant Polaroid Photo Booth for Events in Lahore</title>
+  
+  <!-- Meta Information & SEO -->
+  <meta name="description" content="The Polaroid Station brings a vintage, aesthetic instant Polaroid photo booth corner to your weddings, mehndi, birthdays, and pop-ups in Lahore, Pakistan. Snap, wait 2 minutes, and take your tangible memories home.">
+  <meta name="keywords" content="polaroid photo booth lahore, wedding polaroid station pakistan, instant camera event hire, mehndi photo corner, lahore event photography, instant atelier of memories">
+  <meta name="author" content="The Polaroid Station">
+  <meta name="theme-color" content="#F8F2E7">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thepolaroidstation.vercel.app/">
+  <meta property="og:title" content="The Polaroid Station | Instant Polaroid Photo Booth for Events in Lahore">
+  <meta property="og:description" content="The Instant Atelier Of Memories ✨. A beautiful Polaroid photo corner at your event in Lahore. Snap, wait 2 minutes, and take your memory home.">
+  <meta property="og:image" content="public/images/camera.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Polaroid Station | Instant Polaroid Photo Booth in Lahore">
+  <meta name="twitter:description" content="Tangible memories you can hold in your hands. Book our vintage Polaroid booth for weddings, mehndi, and parties in Lahore.">
+  <meta name="twitter:image" content="public/images/camera.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="public/images/favicon.png">
+  <link rel="apple-touch-icon" href="public/images/favicon.png">
+
+  <!-- Google Fonts Preconnect & Display Swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data: LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Polaroid Station",
+    "alternateName": "The Instant Atelier Of Memories",
+    "image": "https://thepolaroidstation.vercel.app/public/images/logo.png",
+    "email": "planwithmaham@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lahore",
+      "addressRegion": "Punjab",
+      "addressCountry": "PK"
+    },
+    "description": "Instant Polaroid photo booth corner for weddings, mehndi, birthdays, and exhibitions in Lahore, Pakistan.",
+    "url": "https://thepolaroidstation.vercel.app/",
+    "sameAs": [
+      "https://www.instagram.com/thepolaroidstation_"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "name": "Standard Package",
+      "priceCurrency": "PKR",
+      "price": "40000",
+      "description": "40 instant films (Polaroids), instant camera, 2 instructors, guest book, complete setup",
+      "availability": "https://schema.org/InStock",
+      "url": "https://thepolaroidstation.vercel.app/#packages"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Subtle Film Grain Overlay -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- Camera Flash Screen Overlay (triggers on booking submit & camera click) -->
+  <div class="camera-flash-overlay" aria-hidden="true"></div>
+
+  <!-- 1. Page Load Intro: Polaroid "Develops" Effect -->
+  <div class="page-load-intro" aria-hidden="true">
+    <div class="intro-polaroid-frame">
+      <div class="intro-photo-area">
+        <img src="public/images/logo.png" alt="The Polaroid Station Icon" class="intro-photo-inner">
+      </div>
+      <span class="intro-caption">developing memories ✨</span>
+    </div>
+  </div>
+
+  <!-- 6.1 NAVBAR (Sticky) -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo-wrap" aria-label="The Polaroid Station Home">
+        <img src="public/images/logo.png" alt="The Polaroid Station Logo" class="brand-logo-img" width="46" height="46">
+        <div>
+          <span class="brand-title">The Polaroid Station</span>
+          <span class="brand-tagline-micro">The Instant Atelier ✨</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#what" class="nav-link">What We Do</a></li>
+          <li><a href="#why" class="nav-link">Why Us</a></li>
+          <li><a href="#how" class="nav-link">How It Works</a></li>
+          <li><a href="#packages" class="nav-link">Packages</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#book" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#book" class="btn btn-primary nav-cta btn-pulse">Get In Touch</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+      <li><a href="#what" class="mobile-nav-link">What We Do</a></li>
+      <li><a href="#why" class="mobile-nav-link">Why Us</a></li>
+      <li><a href="#how" class="mobile-nav-link">How It Works</a></li>
+      <li><a href="#packages" class="mobile-nav-link">Packages</a></li>
+      <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+      <li><a href="#book" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+
+    <div class="mobile-drawer-footer">
+      <a href="#book" class="btn btn-primary" style="width: 100%; margin-bottom: 16px;">Get In Touch 💌</a>
+      <p style="font-size: 13px; text-align: center; color: var(--ink-light);">
+        📍 Lahore, Pakistan<br>
+        <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer" style="color: var(--ink); text-decoration: underline;">@thepolaroidstation_</a>
+      </p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- 6.2 HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Copy -->
+        <div class="hero-content reveal-init">
+          <div class="hero-eyebrow">
+            <span>The Instant Atelier Of Memories ✨</span>
+          </div>
+          <h1 class="hero-title">Memories you can hold in your hands.</h1>
+          <p class="hero-subtext">
+            A beautiful Polaroid photo corner at your event. Snap, wait 2 minutes, and take your memory home.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#book" class="btn btn-primary btn-pulse">
+              <span>Book Your Slot</span>
+              <span aria-hidden="true">✉️</span>
+            </a>
+            <a href="#how" class="btn btn-secondary">
+              <span>See How It Works</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <!-- Trust Chips -->
+          <div class="hero-trust-chips">
+            <span class="trust-chip">
+              <span aria-hidden="true">📍</span> Lahore
+            </span>
+            <span class="trust-chip">
+              <span aria-hidden="true">⚡</span> Prints in 2 minutes
+            </span>
+            <span class="trust-chip">
+              <span aria-hidden="true">💰</span> Packages from PKR 40,000
+            </span>
+            <span class="trust-chip">
+              <span aria-hidden="true">💌</span> Guestbook memories
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual (Camera with Printing Polaroid) -->
+        <div class="hero-visual-col reveal-init">
+          <div class="hero-camera-stage">
+            
+            <!-- Camera Visual (Click to flash!) -->
+            <div class="hero-camera-img-wrap" title="Click me to take a snap! ✨">
+              <img src="public/images/camera.png" alt="Vintage Polaroid Camera" class="hero-camera-img" width="320" height="320">
+            </div>
+
+            <!-- Polaroid Photo that Slides Out & Develops -->
+            <div class="printing-polaroid" title="Click to view">
+              <div class="washi-tape"></div>
+              <div class="printing-photo-inner">
+                <img src="public/images/gallery/moment-1.jpg" alt="Instant Polaroid Print" class="printing-photo-img" width="170" height="170" style="object-fit:cover;border-radius:4px;">
+              </div>
+              <span class="printing-caption">just printed! ✨</span>
+            </div>
+
+            <!-- Floating Decorative Accents (Pure CSS Animation) -->
+            <div class="floating-doodle doodle-sparkle-1" aria-hidden="true">✨</div>
+            <div class="floating-doodle doodle-sparkle-2" aria-hidden="true">✦</div>
+            <div class="floating-doodle doodle-heart" aria-hidden="true">🤍</div>
+            
+            <div class="floating-doodle doodle-mini-polaroid" aria-hidden="true">
+              <div class="mini-photo-blank">🎞️</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.3 MARQUEE STRIP (Event Types) -->
+    <section class="marquee-strip" aria-label="Event Types Marquee">
+      <div class="marquee-track">
+        <div class="marquee-item">
+          <span>WEDDINGS</span> <span class="marquee-star">✦</span>
+          <span>MEHNDI</span> <span class="marquee-star">✦</span>
+          <span>BIRTHDAYS</span> <span class="marquee-star">✦</span>
+          <span>ART GALLERIES</span> <span class="marquee-star">✦</span>
+          <span>POP-UPS</span> <span class="marquee-star">✦</span>
+          <span>CORPORATE EVENTS</span> <span class="marquee-star">✦</span>
+          <span>BRIDAL SHOWERS</span> <span class="marquee-star">✦</span>
+        </div>
+        <!-- Duplicate track for seamless infinite loop -->
+        <div class="marquee-item" aria-hidden="true">
+          <span>WEDDINGS</span> <span class="marquee-star">✦</span>
+          <span>MEHNDI</span> <span class="marquee-star">✦</span>
+          <span>BIRTHDAYS</span> <span class="marquee-star">✦</span>
+          <span>ART GALLERIES</span> <span class="marquee-star">✦</span>
+          <span>POP-UPS</span> <span class="marquee-star">✦</span>
+          <span>CORPORATE EVENTS</span> <span class="marquee-star">✦</span>
+          <span>BRIDAL SHOWERS</span> <span class="marquee-star">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6.4 WHAT IS A POLAROID STATION? -->
+    <section class="what-section" id="what">
+      <div class="container what-grid">
+        
+        <!-- Text Column -->
+        <div class="what-text-col reveal-init">
+          <span class="section-eyebrow">Our Concept</span>
+          <h2 class="section-title">What is a Polaroid Station?</h2>
+          <p class="what-body-text">
+            A Polaroid Station is a beautiful, small photo corner that we set up at your event. It has a beautiful setup, a Polaroid camera, and our team. Your guests come, take a photo, and in just 2 minutes they get their printed photo in their hands. They can take this photo home with them, or stick it in your guestbook with a sweet message for you.
+          </p>
+
+          <!-- 3 Icon Bullets -->
+          <div class="what-bullets">
+            <div class="what-bullet-item">
+              <div class="bullet-icon-pill">📸</div>
+              <span>Beautiful Setup</span>
+            </div>
+            <div class="what-bullet-item">
+              <div class="bullet-icon-pill">🧑🤝🧑</div>
+              <span>Friendly Team</span>
+            </div>
+            <div class="what-bullet-item">
+              <div class="bullet-icon-pill">🖨️</div>
+              <span>Instant Prints</span>
+            </div>
+          </div>
+
+          <a href="#book" class="btn btn-secondary">Reserve For Your Event →</a>
+        </div>
+
+        <!-- Polaroid Collage Column (3 tilted cards) -->
+        <div class="polaroid-collage-col reveal-init">
+          
+          <!-- Card 1: Camera / Setup -->
+          <div class="polaroid-card collage-card-1">
+            <div class="washi-tape"></div>
+            <div class="card-photo-box">
+              <!-- CLIENT: Replace with your actual setup photo e.g. public/images/setup.jpg -->
+              <img src="public/images/gallery/moment-2.jpg" alt="The Polaroid Station Setup" class="card-photo-img" width="200" height="200" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="card-caption">snap! 📸</span>
+          </div>
+
+          <!-- Card 2: 2 Minutes Instant Prints -->
+          <div class="polaroid-card collage-card-2">
+            <div class="washi-tape sage"></div>
+            <div class="card-photo-box">
+              <!-- CLIENT: Replace with real prints photo e.g. public/images/prints.jpg -->
+              <img src="public/images/gallery/moment-3.jpg" alt="Instant Polaroid Print" class="card-photo-img" width="220" height="220" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="card-caption">2 minutes ⏱️</span>
+          </div>
+
+          <!-- Card 3: Guestbook Keepsake -->
+          <div class="polaroid-card collage-card-3">
+            <div class="washi-tape sepia"></div>
+            <div class="card-photo-box">
+              <!-- CLIENT: Replace with guestbook photo e.g. public/images/guestbook.jpg -->
+              <img src="public/images/gallery/moment-4.jpg" alt="Guestbook Keepsake" class="card-photo-img" width="190" height="190" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="card-caption">keep it forever 💌</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.5 WHY PEOPLE HIRE THE POLAROID STATION? -->
+    <section class="why-section" id="why">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Why We're Loved</span>
+          <h2 class="section-title">Why People Hire The Polaroid Station?</h2>
+        </div>
+
+        <!-- Exact Intro Copy -->
+        <div class="why-intro-card reveal-init">
+          <p class="why-intro-text">
+            Because we don't just take pictures, we create instant memories of ateliers that you can hold in your hands. At The Polaroid Station, your guests don't have to wait for weeks for their photos. They get their instant Polaroid print in just 2 minutes, write a sweet message in your guestbook and take home a memory forever. We make your event fun, interactive, and unforgettable.
+          </p>
+        </div>
+
+        <!-- 4 Polaroid-Style Feature Cards -->
+        <div class="why-features-grid">
+          
+          <!-- Feature 1 -->
+          <div class="why-polaroid-item reveal-init">
+            <div class="washi-tape"></div>
+            <div class="why-visual-frame">
+              <span class="why-number-badge">01</span>
+              <span class="why-feature-icon">🎞️</span>
+            </div>
+            <h3 class="why-title">Memorable</h3>
+            <p class="why-desc">A real photo guests actually keep, not just another phone picture.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="why-polaroid-item reveal-init">
+            <div class="washi-tape sage"></div>
+            <div class="why-visual-frame">
+              <span class="why-number-badge">02</span>
+              <span class="why-feature-icon">⚡</span>
+            </div>
+            <h3 class="why-title">Instant Memories, Forever</h3>
+            <p class="why-desc">Printed in 2 minutes, no waiting for weeks.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="why-polaroid-item reveal-init">
+            <div class="washi-tape sepia"></div>
+            <div class="why-visual-frame">
+              <span class="why-number-badge">03</span>
+              <span class="why-feature-icon">👛</span>
+            </div>
+            <h3 class="why-title">Easy To Carry</h3>
+            <p class="why-desc">Small enough to slip inside a phone cover, wallet or pocket.</p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="why-polaroid-item reveal-init">
+            <div class="washi-tape"></div>
+            <div class="why-visual-frame">
+              <span class="why-number-badge">04</span>
+              <span class="why-feature-icon">🥳</span>
+            </div>
+            <h3 class="why-title">Fun & Interactive</h3>
+            <p class="why-desc">Guests mingle, pose, laugh and write sweet messages in the guestbook.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.6 HOW IT WORKS (4 steps with self-drawing dotted line) -->
+    <section class="how-section" id="how">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Seamless & Simple</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-desc">From the moment you reserve your date to the smiles your guests take home.</p>
+        </div>
+
+        <div class="steps-container">
+          <!-- Self-Drawing Dotted SVG Line -->
+          <svg class="steps-svg-line" viewBox="0 0 1000 20" fill="none" preserveAspectRatio="none" aria-hidden="true">
+            <path class="steps-dotted-path" d="M 50 10 H 950" />
+          </svg>
+
+          <!-- 4 Steps Grid -->
+          <div class="steps-grid">
+            
+            <!-- Step 1 -->
+            <div class="step-card reveal-init">
+              <div class="step-num-bubble">01</div>
+              <span class="step-icon-doodle">🗓️</span>
+              <h3 class="step-title">Book your date</h3>
+              <p class="step-desc">Fill out our simple form or send us a DM on Instagram to reserve your station.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-card reveal-init">
+              <div class="step-num-bubble">02</div>
+              <span class="step-icon-doodle">🌸</span>
+              <h3 class="step-title">We set up a beautiful station</h3>
+              <p class="step-desc">Our team arrives early to style a lovely vintage photo corner with our cameras and film.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-card reveal-init">
+              <div class="step-num-bubble">03</div>
+              <span class="step-icon-doodle">📸</span>
+              <h3 class="step-title">Guests snap & get prints in 2 min</h3>
+              <p class="step-desc">Guests pose, smile, and watch their instant physical Polaroid print develop right in front of them.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step-card reveal-init">
+              <div class="step-num-bubble">04</div>
+              <span class="step-icon-doodle">💌</span>
+              <h3 class="step-title">Stick it in guestbook / take it home</h3>
+              <p class="step-desc">Guests pen heartfelt notes in your keepsake guestbook and slip a favorite print into their wallet.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 1. PACKAGES & PRICING SECTION (id="packages") -->
+    <section class="packages-section" id="packages">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Fully customizable, made around your event ✨</span>
+          <h2 class="section-title">Our Packages</h2>
+        </div>
+
+        <!-- Exact Intro Copy -->
+        <div class="packages-intro-box reveal-init">
+          <p class="packages-intro-text">
+            Our charges are fully customizable, depending on the service you select and the number of Polaroids required. We offer Polaroid services along with a guest book or mini cards, where your esteemed guests can write their wishes and memories alongside their Polaroids.
+          </p>
+        </div>
+
+        <!-- Two Cards Grid (Standard Featured + Custom) -->
+        <div class="packages-grid">
+          
+          <!-- 1a. Featured Card: STANDARD PACKAGE -->
+          <div class="package-card standard reveal-init" id="standardPackageCard">
+            <div class="washi-tape"></div>
+            <span class="package-popular-badge">Most Popular ✦</span>
+            
+            <div class="package-header">
+              <h3 class="package-title">Standard Package</h3>
+              <div class="package-price-wrap">
+                <span class="package-price-num price-tag-wiggle">PKR 40,000</span>
+              </div>
+              <span class="package-tagline">40 Polaroids + Guest Book</span>
+            </div>
+
+            <!-- Included List with Doodle Checkmarks -->
+            <ul class="package-features-list">
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>40 instant films (Polaroids)</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Instant camera</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>2 friendly instructors / team members</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Guest book for wishes & memories</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Complete beautiful setup</span>
+              </li>
+            </ul>
+
+            <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-pulse" style="width: 100%;">
+              <span>DM to Book This Package</span>
+              <span aria-hidden="true">📸</span>
+            </a>
+          </div>
+
+          <!-- 1b. Matching Card: CUSTOM PACKAGE -->
+          <div class="package-card custom reveal-init" id="customPackageCard">
+            <div class="washi-tape sage"></div>
+            
+            <div class="package-header">
+              <h3 class="package-title">Custom Package</h3>
+              <p class="package-custom-text">
+                Need more Polaroids, mini cards, or something special? Tell us your exact requirements and we'll create a package just for your event.
+              </p>
+              <div class="package-custom-price-line">Pricing on request 💌</div>
+            </div>
+
+            <!-- Included Bullets -->
+            <ul class="package-features-list">
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Choose your number of Polaroids</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Guest book or mini cards</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Tailored to your event size</span>
+              </li>
+              <li class="package-feature-item">
+                <span class="package-feature-icon" aria-hidden="true">✦</span>
+                <span>Dedicated attendant team & styling</span>
+              </li>
+            </ul>
+
+            <a href="mailto:planwithmaham@gmail.com?subject=Custom%20Package%20Enquiry%20%E2%80%93%20The%20Polaroid%20Station&body=Hi!%20I%27d%20like%20to%20enquire%20about%20a%20custom%20package.%0A%0AEvent%20Type%3A%20%0AEvent%20Date%3A%20%0ANo.%20of%20Polaroids%20Needed%3A%20%0AExtra%20Notes%3A%20" class="btn btn-secondary" style="width: 100%;">
+              <span>Request a Custom Quote</span>
+              <span aria-hidden="true">💌</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Note below cards -->
+        <p class="packages-bottom-note reveal-init">
+          "Please let us know your exact requirements so we may assist you further. 💌"
+        </p>
+
+        <!-- FAQ-style Teaser Strip -->
+        <div class="packages-faq-strip reveal-init">
+          <div class="faq-teaser-item">
+            <div class="faq-teaser-q"><span>💡</span> What's included?</div>
+            <div class="faq-teaser-a">Camera, film, 2 team members, station styling & guestbook/cards.</div>
+          </div>
+          <div class="faq-teaser-item">
+            <div class="faq-teaser-q"><span>🔒</span> How do I confirm my date?</div>
+            <div class="faq-teaser-a">By paying the advance. Slots are booked on a first-paid basis.</div>
+          </div>
+          <div class="faq-teaser-item">
+            <div class="faq-teaser-q"><span>⚡</span> When do I get my content?</div>
+            <div class="faq-teaser-a">Your event content creation data is delivered within 24 hours.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.7 WHERE WE'VE SET UP (Gallery / Instagram highlights) -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Live From Lahore Events</span>
+          <h2 class="section-title">Moments from our stations</h2>
+          <p class="section-desc">Explore our real setups and client highlights from across Lahore.</p>
+        </div>
+
+        <!-- Instagram Story Category Filter Chips -->
+        <div class="category-filter-wrap reveal-init" role="tablist" aria-label="Gallery category filters">
+          <button class="filter-chip-btn active" data-filter="all" role="tab" aria-selected="true">✦ All Moments</button>
+          <button class="filter-chip-btn" data-filter="weddings" role="tab" aria-selected="false">At Weddings</button>
+          <button class="filter-chip-btn" data-filter="popups" role="tab" aria-selected="false">Mini Pop-ups</button>
+          <button class="filter-chip-btn" data-filter="art-gallery" role="tab" aria-selected="false">At Art Gallery</button>
+          <button class="filter-chip-btn" data-filter="crumble" role="tab" aria-selected="false">At Crumble</button>
+          <button class="filter-chip-btn" data-filter="atelier" role="tab" aria-selected="false">Instant Atelier</button>
+        </div>
+
+        <!-- Polaroid Grid with client-replaceable images -->
+        <div class="gallery-polaroid-grid">
+          
+          <!-- Item 1: Weddings -->
+          <div class="gallery-card reveal-init" data-category="weddings">
+            <div class="washi-tape"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-1.jpg" alt="Polaroid moment at wedding" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">wedding atelier ✨</span>
+          </div>
+
+          <!-- Item 2: Mehndi Night -->
+          <div class="gallery-card reveal-init" data-category="weddings">
+            <div class="washi-tape sage"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-6.jpg" alt="Polaroid moment at Mehndi" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">mehndi night glow 🌿</span>
+          </div>
+
+          <!-- Item 3: Art Gallery -->
+          <div class="gallery-card reveal-init" data-category="art-gallery">
+            <div class="washi-tape sepia"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-3.jpg" alt="Polaroid moment at Art Gallery" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">gallery moments 🎨</span>
+          </div>
+
+          <!-- Item 4: Crumble Pop-Up -->
+          <div class="gallery-card reveal-init" data-category="crumble">
+            <div class="washi-tape"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-4.jpg" alt="Polaroid moment at Crumble Pop-Up" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">at crumble pop-up ☕</span>
+          </div>
+
+          <!-- Item 5: Station Setup / Pop-up -->
+          <div class="gallery-card reveal-init" data-category="popups">
+            <div class="washi-tape sage"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-2.jpg" alt="Polaroid station setup at pop-up" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">station setup 🌸</span>
+          </div>
+
+          <!-- Item 6: Instant Atelier -->
+          <div class="gallery-card reveal-init" data-category="atelier">
+            <div class="washi-tape sepia"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-5.jpg" alt="Instant Atelier memories" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">instant memories 🎞️</span>
+          </div>
+
+          <!-- Item 7: Weekend Atelier -->
+          <div class="gallery-card reveal-init" data-category="popups">
+            <div class="washi-tape"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-7.jpg" alt="Weekend Polaroid pop-up" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">weekend atelier 🤍</span>
+          </div>
+
+          <!-- Item 8: Tangible Frames -->
+          <div class="gallery-card reveal-init" data-category="art-gallery">
+            <div class="washi-tape sage"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-8.jpg" alt="Tangible Polaroid frames at art gallery" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">tangible frames ✨</span>
+          </div>
+
+          <!-- Item 9: Sweet Snapshots -->
+          <div class="gallery-card reveal-init" data-category="crumble">
+            <div class="washi-tape sepia"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-9.jpg" alt="Sweet Polaroid snapshots" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">sweet snapshots 📸</span>
+          </div>
+
+          <!-- Item 10: Guestbook Love -->
+          <div class="gallery-card reveal-init" data-category="atelier">
+            <div class="washi-tape"></div>
+            <div class="gallery-photo-frame">
+              <img src="public/images/gallery/moment-10.jpg" alt="Guestbook love and memories" class="gallery-img" width="340" height="340" loading="lazy" style="object-fit:cover;border-radius:4px;">
+            </div>
+            <span class="gallery-caption">guestbook love 💌</span>
+          </div>
+
+        </div>
+
+        <!-- Follow on Instagram CTA -->
+        <div class="instagram-cta-banner reveal-init">
+          <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>Follow us on Instagram @thepolaroidstation_</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.8 REVIEWS (Sweet words from our guests) -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Guest Love Notes</span>
+          <h2 class="section-title">Sweet words from our guests</h2>
+          <p class="section-desc">Snapshots of the joy our stations brought to celebrations across Lahore.</p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <!-- Review Card 1 (Rose Paper Note) -->
+          <!-- CLIENT NOTE: Replace placeholder text below with real guest feedback from your Instagram 'Reviews' highlight -->
+          <div class="sticky-note-card rose reveal-init">
+            <div class="washi-tape"></div>
+            <p class="sticky-quote">
+              "Your guest review goes here – [Client note: replace this text with a real review from your Instagram highlight]. The polaroid booth was the biggest hit at our wedding! Everyone loved taking photos home."
+            </p>
+            <div class="sticky-author-row">
+              <span class="sticky-author-name">Happy Host · Wedding in Lahore</span>
+              <span class="sticky-heart" aria-hidden="true">🤍</span>
+            </div>
+          </div>
+
+          <!-- Review Card 2 (Sage Paper Note) -->
+          <!-- CLIENT NOTE: Replace placeholder text below with real guest feedback from your Instagram 'Reviews' highlight -->
+          <div class="sticky-note-card sage reveal-init">
+            <div class="washi-tape sage"></div>
+            <p class="sticky-quote">
+              "Your guest review goes here – [Client note: replace this text with a real review from your Instagram highlight]. Having physical prints in 2 minutes made the birthday evening so nostalgic and intimate."
+            </p>
+            <div class="sticky-author-row">
+              <span class="sticky-author-name">Birthday Host · Gulberg, Lahore</span>
+              <span class="sticky-heart" aria-hidden="true">🤍</span>
+            </div>
+          </div>
+
+          <!-- Review Card 3 (Sepia Paper Note) -->
+          <!-- CLIENT NOTE: Replace placeholder text below with real guest feedback from your Instagram 'Reviews' highlight -->
+          <div class="sticky-note-card sepia reveal-init">
+            <div class="washi-tape sepia"></div>
+            <p class="sticky-quote">
+              "Your guest review goes here – [Client note: replace this text with a real review from your Instagram highlight]. The guestbook filled with polaroids and handwritten messages is our most prized keepsake now."
+            </p>
+            <div class="sticky-author-row">
+              <span class="sticky-author-name">Event Guest · Lahore Pop-up</span>
+              <span class="sticky-heart" aria-hidden="true">🤍</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. TERMS & CONDITIONS SECTION (id="terms") -->
+    <section class="terms-section" id="terms">
+      <div class="container">
+        
+        <div class="terms-notebook-card reveal-init">
+          <div class="washi-tape"></div>
+          
+          <div class="terms-header">
+            <span class="terms-title-serif">Terms & Conditions</span>
+            <h2 class="terms-heading-handwritten">A gentle reminder to all our lovely customers!</h2>
+          </div>
+
+          <!-- 5 Accordion Items -->
+          <div class="terms-accordion" role="region" aria-label="Terms and Conditions Accordion">
+            
+            <!-- Item 1: Booking Confirmation -->
+            <div class="accordion-item is-open">
+              <button type="button" class="accordion-header-btn" aria-expanded="true" aria-controls="term-body-1" id="term-header-1">
+                <div class="accordion-title-left">
+                  <span class="accordion-num">01</span>
+                  <span>Booking Confirmation</span>
+                  <span class="important-tag">Important</span>
+                </div>
+                <span class="accordion-chevron" aria-hidden="true">▼</span>
+              </button>
+              <div id="term-body-1" class="accordion-body" role="region" aria-labelledby="term-header-1">
+                <div class="accordion-content-inner">
+                  <ul>
+                    <li>Your event slot is NOT confirmed until the advance payment has been received.</li>
+                    <li>Simply enquiring about a date or discussing availability does not mean the slot is reserved for you.</li>
+                    <li>Slots are confirmed on a first-paid, first-confirmed basis.</li>
+                    <li>If someone else confirms the same date and pays the advance before you, the slot will be allocated to them, even if you enquired earlier.</li>
+                    <li>We cannot hold dates without a confirmed booking and advance payment.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Advance Payment -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-header-btn" aria-expanded="false" aria-controls="term-body-2" id="term-header-2">
+                <div class="accordion-title-left">
+                  <span class="accordion-num">02</span>
+                  <span>Advance Payment</span>
+                  <span class="important-tag">Important</span>
+                </div>
+                <span class="accordion-chevron" aria-hidden="true">▼</span>
+              </button>
+              <div id="term-body-2" class="accordion-body" role="region" aria-labelledby="term-header-2">
+                <div class="accordion-content-inner">
+                  <ul>
+                    <li>Your advance payment is non-refundable.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3: Films / Polaroid Prints -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-header-btn" aria-expanded="false" aria-controls="term-body-3" id="term-header-3">
+                <div class="accordion-title-left">
+                  <span class="accordion-num">03</span>
+                  <span>Films / Polaroid Prints</span>
+                </div>
+                <span class="accordion-chevron" aria-hidden="true">▼</span>
+              </button>
+              <div id="term-body-3" class="accordion-body" role="region" aria-labelledby="term-header-3">
+                <div class="accordion-content-inner">
+                  <ul>
+                    <li>We always try to use all the films included in your package.</li>
+                    <li>If any films are left unused, the payment for them will not be refunded.</li>
+                    <li>We always encourage you to manage and use all your Polaroid films during the event.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4: Content Delivery -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-header-btn" aria-expanded="false" aria-controls="term-body-4" id="term-header-4">
+                <div class="accordion-title-left">
+                  <span class="accordion-num">04</span>
+                  <span>Content Delivery</span>
+                </div>
+                <span class="accordion-chevron" aria-hidden="true">▼</span>
+              </button>
+              <div id="term-body-4" class="accordion-body" role="region" aria-labelledby="term-header-4">
+                <div class="accordion-content-inner">
+                  <ul>
+                    <li>Your content creation data will be delivered within 24 hours of your event.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5: Re-edits -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-header-btn" aria-expanded="false" aria-controls="term-body-5" id="term-header-5">
+                <div class="accordion-title-left">
+                  <span class="accordion-num">05</span>
+                  <span>Re-edits</span>
+                </div>
+                <span class="accordion-chevron" aria-hidden="true">▼</span>
+              </button>
+              <div id="term-body-5" class="accordion-body" role="region" aria-labelledby="term-header-5">
+                <div class="accordion-content-inner">
+                  <ul>
+                    <li>You have 15 days to request any re-edits for the photos, reel, or content we provide from your event.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6.9 CONTACT / BOOK SECTION (id="book") -->
+    <section class="book-section contact-section" id="book">
+      <div class="container">
+
+        <div class="section-header reveal-init">
+          <span class="section-eyebrow">Reserve Your Date</span>
+          <h2 class="section-title">Let's make your event unforgettable ✨</h2>
+          <p class="section-desc">Slide into our DMs or drop us an email — we'd love to hear about your event!</p>
+        </div>
+
+        <div class="contact-cards-row">
+
+          <!-- Camera Polaroid Visual -->
+          <div class="contact-camera-polaroid reveal-init">
+            <div class="washi-tape"></div>
+            <div class="contact-camera-frame">
+              <img src="public/images/camera-real.jpg" alt="Our Fujifilm Instax Mini 12 camera" class="contact-camera-img" width="340" height="420" loading="lazy">
+            </div>
+            <span class="contact-camera-caption handwritten">our little pink camera 🌸</span>
+          </div>
+
+          <!-- Contact Options Card -->
+          <div class="contact-options-card reveal-init">
+            <div class="washi-tape sage"></div>
+
+            <p class="contact-note handwritten">"Every event deserves a tangible memory — let's create yours together ✨"</p>
+
+            <div class="contact-option-block">
+              <div class="contact-option instagram">
+                <div class="contact-option-icon" aria-hidden="true">📸</div>
+                <div class="contact-option-body">
+                  <span class="contact-option-label">Book on Instagram</span>
+                  <span class="contact-option-desc">Send us a DM and we'll get back to you within 24 hours.</span>
+                  <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-pulse contact-btn">
+                    DM @thepolaroidstation_ ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-divider"><span>or</span></div>
+
+            <div class="contact-option-block">
+              <div class="contact-option email">
+                <div class="contact-option-icon" aria-hidden="true">💌</div>
+                <div class="contact-option-body">
+                  <span class="contact-option-label">Book via Email</span>
+                  <span class="contact-option-desc">Tell us your event date, type, and any special requests.</span>
+                  <a href="mailto:planwithmaham@gmail.com?subject=Booking%20Enquiry%20%E2%80%93%20The%20Polaroid%20Station&body=Hi!%20I%27d%20like%20to%20book%20The%20Polaroid%20Station%20for%20my%20event.%0A%0AEvent%20Type%3A%20%0AEvent%20Date%3A%20%0AVenue%2FCity%3A%20%0AApprox.%20Guests%3A%20%0APackage%20Interested%20In%3A%20%0AExtra%20Notes%3A%20" class="btn btn-secondary contact-btn">
+                    planwithmaham@gmail.com ✉️
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-location-chip">
+              <span aria-hidden="true">📍</span>
+              <span>Based in Lahore, Pakistan</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 6.10 FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <div class="brand-logo-wrap">
+            <img src="public/images/logo.png" alt="The Polaroid Station" class="brand-logo-img" width="46" height="46">
+            <span class="brand-title">The Polaroid Station</span>
+          </div>
+          <p class="footer-tagline">"The Instant Atelier Of Memories ✨"</p>
+          <p class="footer-desc">
+            Bringing vintage tangible Polaroid prints, interactive fun, and keepsake guestbooks to weddings, celebrations, and pop-ups in Lahore, Pakistan.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#what">What We Do</a></li>
+            <li><a href="#why">Why People Hire Us</a></li>
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#gallery">Moments & Highlights</a></li>
+            <li><a href="#terms">Terms & Conditions</a></li>
+            <li><a href="#book">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect & Location -->
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-links-list">
+            <li>📍 <strong>Lahore, Pakistan</strong></li>
+            <li>📸 <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer">@thepolaroidstation_</a></li>
+            <li>💌 <a href="mailto:planwithmaham@gmail.com">planwithmaham@gmail.com</a></li>
+            <li>⚡ Prints ready in 2 minutes</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <span>© 2026 The Polaroid Station. All rights reserved.</span>
+        <span class="footer-love-note">Made with love & a little flash ✨</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Instagram DM Button (Bottom-Right) -->
+  <aside aria-label="Social Link">
+    <a href="https://www.instagram.com/thepolaroidstation_" target="_blank" rel="noopener noreferrer" class="floating-dm-pill" title="DM us on Instagram">
+      <span aria-hidden="true">📸</span>
+      <span class="label-text">DM on Instagram</span>
+    </a>
+  </aside>
+
+  <!-- Thank You Modal (Appears after submission + camera flash) -->
+  <div class="thank-you-modal" id="thankYouModal" role="dialog" aria-modal="true" aria-labelledby="thankYouTitle">
+    <div class="thank-you-polaroid">
+      <div class="washi-tape"></div>
+      <span class="thank-you-icon">📸 ✨</span>
+      <h3 class="thank-you-title" id="thankYouTitle">Thank You!</h3>
+      <p class="thank-you-msg">
+        We've received your request <span id="thankYouDetails" style="font-weight: 600;"></span> and will contact you via WhatsApp or Email soon 💌
+      </p>
+      <button type="button" class="btn btn-primary" id="closeModalBtn" style="padding: 10px 24px; font-size: 14px;">
+        Back to Website
+      </button>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>

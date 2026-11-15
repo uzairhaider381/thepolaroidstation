@@ -1,0 +1,21 @@
+{
+  "name": "the-polaroid-station",
+  "version": "1.0.0",
+  "description": "The Polaroid Station – Event Polaroid Booth Website based in Lahore, Pakistan",
+  "main": "api/book.js",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "keywords": [
+    "polaroid",
+    "photo-booth",
+    "lahore",
+    "events",
+    "wedding"
+  ],
+  "author": "The Polaroid Station",
+  "license": "MIT"
+}
