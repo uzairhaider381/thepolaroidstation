@@ -567,13 +567,13 @@ img {
   align-items: center;
   gap: 8px;
   font-family: var(--font-heading);
-  font-size: clamp(36px, 5.5vw, 72px);
+  font-size: clamp(38px, 6vw, 76px);
   font-weight: 500;
   font-style: italic;
   letter-spacing: -0.5px;
   line-height: 1.1;
   color: var(--ink);
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .hero-title {
